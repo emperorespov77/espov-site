@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Samuel Ezekiel — Aspiring Data Engineer. Learning in public, building from zero." />
+  <meta name="author" content="Samuel Ezekiel" />
+  <meta property="og:title" content="Samuel Ezekiel · Data Engineer" />
+  <meta property="og:description" content="Learning in public, building from zero. Aspiring Data Engineer documenting the journey." />
+  <meta property="og:url" content="https://espov.com" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <title>Samuel Ezekiel · Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/">⬡ espov</a>
+  <ul class="nav-links">
+    <li><a href="#roadmap">Learning Path</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-badge">● Open to opportunities</div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div id="overlay"></div>
+
+<div class="layout">
+
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="profile-block">
+      <div class="avatar">SE</div>
+      <div>
+        <div class="profile-name">Samuel Ezekiel</div>
+        <div class="profile-title">Data Engineer</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="sidebar-section-label">Currently Learning</div>
+      <div>
+        <span class="skill-tag"><span class="dot"></span>Python</span>
+        <span class="skill-tag"><span class="dot"></span>SQL</span>
+        <span class="skill-tag"><span class="dot"></span>Apache Spark</span>
+        <span class="skill-tag"><span class="dot"></span>dbt</span>
+        <span class="skill-tag"><span class="dot"></span>Airflow</span>
+        <span class="skill-tag"><span class="dot"></span>Git</span>
+        <span class="skill-tag"><span class="dot"></span>Linux</span>
+        <span class="skill-tag"><span class="dot"></span>Data Modeling</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="sidebar-section-label">Quick Stats</div>
+      <div class="stat-row"><span class="stat-label">Public repos</span><span class="stat-value">2</span></div>
+      <div class="stat-row"><span class="stat-label">Contributions (last year)</span><span class="stat-value">5</span></div>
+      <div class="stat-row"><span class="stat-label">Primary language</span><span class="stat-value">Python</span></div>
+      <div class="stat-row"><span class="stat-label">Goal</span><span class="stat-value">Build in public</span></div>
+    </div>
+
+    <div id="contact">
+      <div class="sidebar-section-label">Contact</div>
+      <a class="contact-link" href="https://github.com/emperorespov77" target="_blank" rel="noopener">
+        <span class="contact-icon">⌥</span> github.com/emperorespov77
+      </a>
+      <a class="contact-link" href="mailto:samuel.ezekiel@email.com">
+        <span class="contact-icon">✉</span> samuel.ezekiel@email.com
+      </a>
+      <a class="contact-link" href="https://linkedin.com/in/samuel-ezekiel" target="_blank" rel="noopener">
+        <span class="contact-icon">◈</span> linkedin.com/in/samuel-ezekiel
+      </a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <div class="hero-banner">
+      <div class="hero-inner">
+        <div class="hero-label">Aspiring Data Engineer · Self-Builder</div>
+        <div class="hero-name">Learning in public,<br>building from zero.</div>
+        <div class="hero-sub">Hi, I'm Samuel Ezekiel. I'm focused on becoming a data engineer, building real things with Python, and documenting every step of the journey on GitHub.</div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/emperorespov77" target="_blank" rel="noopener">View GitHub ↗</a>
+          <a class="btn btn-ghost" href="mailto:samuel.ezekiel@email.com">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-card">
+      <div class="pipeline-title">// target architecture — studying this</div>
+      <div class="pipeline-flow">
+        <div class="pipeline-node">
+          <div class="pipeline-box">🛢️</div>
+          <div class="pipeline-label">Sources</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-node">
+          <div class="pipeline-box active">⚡</div>
+          <div class="pipeline-label">Extract</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-node">
+          <div class="pipeline-box active">✦</div>
+          <div class="pipeline-label">Load</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-node">
+          <div class="pipeline-box">❄️</div>
+          <div class="pipeline-label">Warehouse</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-node">
+          <div class="pipeline-box">📊</div>
+          <div class="pipeline-label">Transform</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-node">
+          <div class="pipeline-box" style="opacity:.35;border-style:dashed">🚀</div>
+          <div class="pipeline-label" style="color:var(--text-dim)">Deploy</div>
+        </div>
+      </div>
+      <div class="pipeline-note">// currently studying the foundations — this pipeline will run soon</div>
+    </div>
+
+    <div class="section-header" id="roadmap">
+      <div class="section-title"><span class="icon">◈</span> Projects &amp; Learning Roadmap</div>
+      <div class="filter-tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="project">Projects</button>
+        <button class="tab" data-filter="learning">Learning</button>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card" data-category="project">
+        <div class="project-card-header">
+          <div>
+            <div class="project-card-title">ELT</div>
+            <div class="project-card-meta">github.com/emperorespov77/ELT · Python</div>
+          </div>
+          <div class="status-badge"><span class="pulse"></span>Active</div>
+        </div>
+        <div class="project-card-desc">My first real repository — an ELT (Extract, Load, Transform) project written in Python. This is where I'm putting the foundations into practice: pulling data, loading it somewhere, and transforming it. A work in progress and a learning ground.</div>
+        <div class="project-tags">
+          <span class="ptag">Python</span>
+          <span class="ptag">ELT</span>
+          <span class="ptag">Data Pipeline</span>
+        </div>
+        <div class="project-metrics">
+          <div class="metric"><div class="metric-val">🐍</div><div class="metric-lbl">Python</div></div>
+          <div class="metric"><div class="metric-val">Public</div><div class="metric-lbl">Visibility</div></div>
+          <div class="metric"><div class="metric-val">v0.1</div><div class="metric-lbl">Early stage</div></div>
+        </div>
+        <div style="margin-top:14px">
+          <a href="https://github.com/emperorespov77/ELT" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:12px;padding:6px 14px;">View on GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="learning">
+        <div class="project-card-header">
+          <div>
+            <div class="project-card-title">Python for Data Engineering</div>
+            <div class="project-card-meta">Foundation · Self-paced</div>
+          </div>
+          <div class="status-badge"><span class="pulse"></span>In Progress</div>
+        </div>
+        <div class="project-card-desc">Getting comfortable with Python fundamentals — data structures, file I/O, pandas, and writing clean, reusable scripts. The bedrock of everything in data engineering.</div>
+        <div class="project-tags">
+          <span class="ptag">Python</span><span class="ptag">Pandas</span><span class="ptag">NumPy</span><span class="ptag">Jupyter</span>
+        </div>
+        <div class="project-metrics">
+          <div class="metric"><div class="metric-val">🔥</div><div class="metric-lbl">Active</div></div>
+          <div class="metric"><div class="metric-val">~40%</div><div class="metric-lbl">Progress</div></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="learning">
+        <div class="project-card-header">
+          <div>
+            <div class="project-card-title">SQL &amp; Relational Databases</div>
+            <div class="project-card-meta">Foundation · Self-paced</div>
+          </div>
+          <div class="status-badge"><span class="pulse"></span>In Progress</div>
+        </div>
+        <div class="project-card-desc">Learning to write queries, understand joins, aggregations, window functions, and how data flows through relational systems. Practising on real datasets daily.</div>
+        <div class="project-tags">
+          <span class="ptag">SQL</span><span class="ptag">PostgreSQL</span><span class="ptag">Window Functions</span>
+        </div>
+        <div class="project-metrics">
+          <div class="metric"><div class="metric-val">🔥</div><div class="metric-lbl">Active</div></div>
+          <div class="metric"><div class="metric-val">~60%</div><div class="metric-lbl">Progress</div></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="learning" style="opacity:.7">
+        <div class="project-card-header">
+          <div>
+            <div class="project-card-title">dbt — Data Build Tool</div>
+            <div class="project-card-meta">Transformation · Up Next</div>
+          </div>
+          <div class="status-badge" style="color:#f59e0b;background:rgba(245,158,11,.1);border-color:rgba(245,158,11,.3)">
+            <span style="width:6px;height:6px;background:#f59e0b;border-radius:50%;display:inline-block"></span>&nbsp;Up Next
+          </div>
+        </div>
+        <div class="project-card-desc">After solidifying SQL, dbt is the natural next step — modular transformations, testing data models, and generating documentation automatically.</div>
+        <div class="project-tags">
+          <span class="ptag">dbt Core</span><span class="ptag">SQL</span><span class="ptag">Data Modeling</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="learning" style="opacity:.5">
+        <div class="project-card-header">
+          <div>
+            <div class="project-card-title">Apache Airflow — Orchestration</div>
+            <div class="project-card-meta">Orchestration · Future</div>
+          </div>
+          <div class="status-badge" style="color:#a78bfa;background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.3)">◈ Planned</div>
+        </div>
+        <div class="project-card-desc">Scheduling and orchestrating data workflows is core to any data platform. Airflow is on the roadmap once the fundamentals are solid enough to think in DAGs.</div>
+        <div class="project-tags">
+          <span class="ptag">Airflow</span><span class="ptag">DAGs</span><span class="ptag">Scheduling</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="project" style="border-style:dashed;background:transparent;text-align:center;padding:32px 20px;">
+        <div style="font-size:28px;margin-bottom:10px;">🚧</div>
+        <div class="project-card-title" style="color:var(--text-secondary);margin-bottom:6px;">Next project — in the works</div>
+        <div class="project-card-desc" style="margin-bottom:0">More projects are on the way as skills grow. Each one will be pushed to GitHub and documented openly. Follow along at <strong style="color:var(--accent)">emperorespov77</strong>.</div>
+        <div style="margin-top:16px">
+          <a href="https://github.com/emperorespov77" target="_blank" rel="noopener" class="btn btn-ghost" style="display:inline-flex;font-size:12px;padding:6px 14px;">Follow on GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- RIGHT PANEL -->
+  <aside class="right-panel" id="skills">
+
+    <div>
+      <div class="panel-section-title">About Me</div>
+      <div class="about-text">I'm Samuel Ezekiel — self-driven and focused on data engineering. Learning how data moves, transforms, and powers decisions. No shortcuts — just consistent work, open repos, and a long-term mindset.</div>
+      <div class="about-note">// 5 contributions and counting</div>
+    </div>
+
+    <hr class="panel-divider" />
+
+    <div>
+      <div class="panel-section-title">Current Skill Level</div>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <div class="tech-name">Python</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="40%"></div></div>
+          <div class="tech-pct">Learning · 40%</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-name">SQL</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="55%"></div></div>
+          <div class="tech-pct">Learning · 55%</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-name">Git</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="45%"></div></div>
+          <div class="tech-pct">Learning · 45%</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-name">Linux</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="30%"></div></div>
+          <div class="tech-pct">Exploring · 30%</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-name">dbt</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="10%"></div></div>
+          <div class="tech-pct">Up next · 10%</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-name">Airflow</div>
+          <div class="tech-bar"><div class="tech-fill" data-width="5%"></div></div>
+          <div class="tech-pct">Planned · 5%</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="panel-divider" />
+
+    <div>
+      <div class="panel-section-title">Resources I'm Using</div>
+      <div class="cert-item">
+        <div class="cert-icon">📘</div>
+        <div>
+          <div class="cert-name">Fundamentals of Data Engineering</div>
+          <div class="cert-issuer">Book · Joe Reis &amp; Matt Housley</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">🎓</div>
+        <div>
+          <div class="cert-name">Data Engineering Zoomcamp</div>
+          <div class="cert-issuer">DataTalks.Club · Free course</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">🐍</div>
+        <div>
+          <div class="cert-name">Python for Everybody</div>
+          <div class="cert-issuer">Dr. Chuck · Coursera</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">🗃️</div>
+        <div>
+          <div class="cert-name">Mode SQL Tutorial</div>
+          <div class="cert-issuer">mode.com · Self-paced</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="panel-divider" />
+
+    <div>
+      <div class="panel-section-title">Recent Activity</div>
+      <div class="activity-item">
+        <div class="activity-icon">🐍</div>
+        <div>
+          <div class="activity-text">Created <strong>ELT</strong> repo — first Python data pipeline project is live</div>
+          <div class="activity-time">github.com/emperorespov77/ELT</div>
+        </div>
+      </div>
+      <div class="activity-item">
+        <div class="activity-icon">🐙</div>
+        <div>
+          <div class="activity-text">Set up GitHub profile and pushed first commits</div>
+          <div class="activity-time">github.com/emperorespov77</div>
+        </div>
+      </div>
+      <div class="activity-item">
+        <div class="activity-icon">🌐</div>
+        <div>
+          <div class="activity-text">Launched this portfolio — building in public from day one</div>
+          <div class="activity-time">March 2026</div>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
